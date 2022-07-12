@@ -182,24 +182,12 @@ body {
   transition: all 0.3s ease;
 }
 
-.button {
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  font-weight: var(--font-medium);
-}
 .result_box .complete_text {
   font-size: 20px;
   font-weight: 500;
 }
 
 .result_box .score_text span {
-  /* display: flex; */
-  margin: 15px 0;
-
   font-weight: 500;
 }
 
@@ -207,7 +195,15 @@ body {
   padding: 0 4px;
   font-weight: 600;
 } */
-
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: var(--font-medium);
+}
 .result_box .buttons {
   /* display: flex; */
   margin: 20px 0;

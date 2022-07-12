@@ -137,10 +137,13 @@ p {
 }
 
 .button {
-  display: block;
+  display: inline-block;
+  width: 20%;
   text-align: center;
   background-color: var(--first-color);
   color: #fff;
+  margin-left: 35%;
+  margin-right: 25%;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
