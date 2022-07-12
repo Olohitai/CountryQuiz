@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/countryQuiz/css/game.css">
+</head>
+
+<body>
+
+
+    <!-- Quiz Box -->
+    <div id="loader"></div>
+
+    <div class="quiz_container hidden">
+
+
+        <!-- (A) QUIZ CONTAINER -->
+        <div id="quizWrap"></div>
+        <div class="header">
+            <div>
+                <p id="questionNumbText" class="hud-prefix">
+                    Question
+                </p>
+                <div id="progressBar">
+                    <div id="fullProgressBar"></div>
+                </div>
+            </div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+        </div>
+
+
+        <div class="quiz_question"></div>
+        <div class="option_list"></div>
+
+    </div>
+    <div class="result_box">
+
+        <div class="complete_text"> Sucessfully Completed Quiz! </div>
+        <h3>You Scored</h3>
+        <div class="score_text">
+
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <a href="/countryQuiz/game.html" class="restart button">Play Again </a>
+            <a href="/countryQuiz/index.html" class="quit button">Quit Quiz</a>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+
+
+</html>
