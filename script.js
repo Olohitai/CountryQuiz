@@ -163,7 +163,7 @@ const getRandomNumber = (length) => {
 function showResult() {
   setTimeout(function () {
     quiz_container.classList.add("hidden");
-  }, 1200);
+  }, 1000);
   // window.location.assign("/end.html");
   setTimeout(function () {
     result_box.style.display = "flex";
