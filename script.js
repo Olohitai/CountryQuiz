@@ -134,9 +134,11 @@ const optionSelected = async (answer) => {
     userScore += 1;
     // console.log(userScore);
     answer.classList.add("correct");
+
     startGame();
   } else {
     answer.classList.add("incorrect");
+
     startGame();
   }
   for (i = 0; i < allOptions; i++) {
@@ -224,8 +226,9 @@ function startTimer(time) {
 const startGame = () => {
   if (que_count < 4) {
     que_count++;
-
-    showQuestion();
+    setTimeout(function () {
+      showQuestion();
+    }, 1000);
 
     console.log(que_count);
   } else {
